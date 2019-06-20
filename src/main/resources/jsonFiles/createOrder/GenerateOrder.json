@@ -1,0 +1,92 @@
+{
+	"customerOrder": {
+		"id": "CustomerOrder-5",
+		"returnOrderId": null,
+		"customerPhone": "",
+		"regDomesticPhone": "(212) 123-1234",
+		"regDomesticExtn": "",
+		"regIntlPhone1": "",
+		"regIntlPhone2": "",
+		"regIntlPhone3": "",
+		"regIntlExtn": "",
+		"domesticPhone": "",
+		"domesticExtn": "",
+		"intlPhone1": "",
+		"intlPhone2": "",
+		"intlPhone3": "",
+		"intlExtn": "",
+		"enteredLocation": "BedBathBeyond",
+		"entryType": "EOM",
+		"taxExemptFlag": true,
+		"taxExemptID": "",
+		"taxExemptChanged": true,
+		"customerInfo": {
+			"id": "CustomerInfo-10",
+			"returnOrderId": null,
+			"orderId": null,
+			"customerFullName": "",
+			"customerEmail": "domtestin@gmail.com",
+			"entryType": "",
+			"customerPhone": "",
+			"regDomesticPhone": "(212) 123-1234",
+			"regDomesticExtn": "",
+			"regIntlPhone1": "",
+			"regIntlPhone2": "",
+			"regIntlPhone3": "",
+			"regIntlExtn": "",
+			"domesticPhone": "",
+			"domesticExtn": "",
+			"intlPhone1": "",
+			"intlPhone2": "",
+			"intlPhone3": "",
+			"intlExtn": "",
+			"customerType": "",
+			"customerId": "",
+			"externalCustomerId": "27551",
+			"customField1": "",
+			"customField2": "",
+			"customField3": "",
+			"customField4": "",
+			"customField5": "",
+			"customField6": "",
+			"customField7": "",
+			"customField8": "",
+			"customField9": "",
+			"customField10": "",
+			"storeNumber": "",
+			"customerFirstName": "Gajendra",
+			"customerLastName": "Singh"
+		},
+		"orderLines": {
+			"id": "OrderLines-3",
+			"orderId": null,
+			"orderLine": [
+				{
+					"id": "OrderLine-3",
+					"orderLinesId": null,
+					"itemId": 42589495,
+					"orderedQuantity": 1,
+					"orderedQtyUOM": "UNITS",
+					"unitPriceAmount": 9.99,
+					"referenceFields": {
+						"id": "ReferenceFields-7",
+						"orderId": null,
+						"returnOrderId": null,
+						"orderLineRefFieldId": null,
+						"paymentDataId": null,
+						"paymentDetailId": null,
+						"referenceField10": "EOM",
+						"referenceField8": "N/A",
+						"referenceNumber2": "0"
+					},
+					"shippingInfo": {
+						"id": "ShippingInfo-3",
+						"orderLineId": null,
+						"deliveryOption": "Ship to address",
+						"shipVia": "3g"
+					}
+				}
+			]
+		}
+	}
+}

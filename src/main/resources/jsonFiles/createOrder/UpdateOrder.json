@@ -1,0 +1,836 @@
+{
+	"customerOrder": {
+		"responseStatus": true,
+		"tcCompanyId": 1,
+		"orderId": 169335,
+		"orderNumber": "BBD4000025175",
+		"orderCapturedDate": "6\/19\/19 06:42 EDT",
+		"orderCreatedDate": "6\/19\/19 06:42 EDT",
+		"externalOrderNumber": "BBD4000025175",
+		"orderCurrency": "USD",
+		"orderCurrencySymbol": "$",
+		"enteredBy": "ssaikia",
+		"enteredLocation": "BedBathBeyond",
+		"entryType": "EOM",
+		"completedExternally": false,
+		"orderConfirmed": false,
+		"billingMethodCode": "Prepaid",
+		"onHold": false,
+		"minimizeShipments": false,
+		"orderType": "ECOM",
+		"paymentStatusId": 15,
+		"paymentStatus": "AWAIT_AUTHORIZATION",
+		"paymentStatusDescription": "Await Auth",
+		"orderStatusId": 20,
+		"orderStatus": "Created",
+		"isExchange": false,
+		"channelType": "Customer",
+		"orderCancelled": false,
+		"lastUpdatedDTTM": "2019-06-19 06:43:53.778",
+		"customerInfo": {
+			"externalCustomerId": 27551,
+			"customerId": 27551,
+			"customerFirstName": "Gajendra",
+			"customerLastName": "Singh",
+			"customerEmail": "domtestin@gmail.com",
+			"entryType": "EOM",
+			"regDomesticPhone": "(212) 123-1234",
+			"regDomesticExtn": ""
+		},
+		"paymentDetails": {
+			"paymentDetail": {
+				"externalPaymentDetailId": 162183,
+				"paymentMethod": "Credit Card",
+				"cardType": "Visa",
+				"suspended": false,
+				"accountNumber": "PQ\/M94aJcN0eZ1ECPeA8FvD1tIGWhztduRvs3long4Y=",
+				"accountDisplayNumber": "Visa ending with 1234",
+				"accountDisplayNumberIntl": "Visa ending with 1234",
+				"nameOnCard": "gajendra",
+				"cardExpiryMonth": 4,
+				"cardExpiryYear": 2022,
+				"securityCode": 397,
+				"paymentEntryType": "Retail",
+				"authorizationAmount": 15.98,
+				"formattedAuthorizationAmount": "$15.98",
+				"settlementAmount": "0.00",
+				"formattedSettlementAmount": "$0.00",
+				"refundedAmount": 0,
+				"formattedRefundedAmount": "$0.00",
+				"reqRefundAmount": "0.00",
+				"formattedReqRefundAmount": "$0.00",
+				"currencyCode": "USD",
+				"chargeSequence": 1,
+				"referenceFields": {
+					"referenceField3": 0,
+					"referenceNumber1": "",
+					"referenceNumber2": "",
+					"referenceNumber3": "",
+					"referenceNumber4": "",
+					"referenceNumber5": ""
+				},
+				"billToDetail": {
+					"firstName": "Gajendra ",
+					"lastName": "Singh",
+					"addressLine1": "4 East St",
+					"addressLine2": "",
+					"city": "BETHANY",
+					"stateProv": "ON",
+					"postalCode": "L0A 1A0",
+					"country": "CA",
+					"phone": "+1-212-1234123",
+					"email": "domtestin@gmail.com",
+					"domesticPhone": "(212) 123-4123",
+					"domesticExtn": ""
+				},
+				"paymentDetailId": 162184,
+				"statusCount": "",
+				"status": "Pending"
+			}
+		},
+		"chargeDetails": {
+			"chargeDetail": [
+				{
+					"extChargeDetailId": "Shipping_1",
+					"chargeCategory": "Shipping",
+					"chargeGroup": "COCharges",
+					"chargeName": 1,
+					"chargeAmount": 5.99,
+					"formattedChargeAmount": "$5.99",
+					"unitCharge": 5.99,
+					"taxIncluded": false,
+					"originalChargeAmount": 5.99,
+					"formattedOriginalChargeAmount": "$5.99",
+					"markForDeletion": false,
+					"overriddenCharge": false
+				}
+			],
+			"formattedTotalChargesAmount": "$5.99",
+			"formattedTotalFeesAmount": "$0.00",
+			"totalChargesAmount": 5.99
+		},
+		"taxDetails": {
+			"taxDetail": [
+				{
+					"extTaxDetailId": 3264230,
+					"taxCategory": "General Sales and Use Tax",
+					"chargeCategory": "Shipping",
+					"taxName": "COUNTY",
+					"taxLocationName": "NJ",
+					"taxAmount": "0.00",
+					"formattedTaxAmount": "$0.00",
+					"taxRate": 0,
+					"taxableAmount": 5.99,
+					"taxDTTM": "6\/19\/19 06:42 EDT",
+					"deleted": false,
+					"taxType": "QUOTATION"
+				},
+				{
+					"extTaxDetailId": 3264231,
+					"taxCategory": "General Sales and Use Tax",
+					"chargeCategory": "Shipping",
+					"taxName": "DISTRICT",
+					"taxLocationName": "NJ",
+					"taxAmount": "0.00",
+					"formattedTaxAmount": "$0.00",
+					"taxRate": 0,
+					"taxableAmount": 5.99,
+					"taxDTTM": "6\/19\/19 06:42 EDT",
+					"deleted": false,
+					"taxType": "QUOTATION"
+				},
+				{
+					"extTaxDetailId": 3264229,
+					"taxCategory": "General Sales and Use Tax",
+					"chargeCategory": "Shipping",
+					"taxName": "CITY",
+					"taxLocationName": "NJ",
+					"taxAmount": "0.00",
+					"formattedTaxAmount": "$0.00",
+					"taxRate": 0,
+					"taxableAmount": 5.99,
+					"taxDTTM": "6\/19\/19 06:42 EDT",
+					"deleted": false,
+					"taxType": "QUOTATION"
+				},
+				{
+					"extTaxDetailId": 3264232,
+					"taxCategory": "General Sales and Use Tax",
+					"chargeCategory": "Shipping",
+					"taxName": "STATE",
+					"taxLocationName": "NJ",
+					"taxAmount": "0.00",
+					"formattedTaxAmount": "$0.00",
+					"taxRate": 0,
+					"taxableAmount": 5.99,
+					"taxDTTM": "6\/19\/19 06:42 EDT",
+					"deleted": false,
+					"taxType": "QUOTATION"
+				}
+			]
+		},
+		"discountDetails": {
+			"totalDiscountDetails": {
+				"totalPromotionsApplied": 0,
+				"totalPromotionAmount": 0,
+				"formattedTotalPromotionAmount": "$0.00",
+				"totalCouponsApplied": 0,
+				"totalCouponAmount": 0,
+				"formattedTotalCouponAmount": "$0.00",
+				"totalAppeasementsApplied": 0,
+				"totalAppeasementAmount": 0,
+				"formattedTotalAppeasementAmount": "$0.00"
+			}
+		},
+		"referenceFields": {
+			"referenceNumber1": "",
+			"referenceNumber2": "",
+			"referenceNumber3": "",
+			"referenceNumber4": "",
+			"referenceNumber5": ""
+		},
+		"customFieldList": {
+			"customField": [
+				{
+					"name": "ATGEntry",
+					"value": ""
+				},
+				{
+					"name": "ATGOrderTotal",
+					"value": ""
+				},
+				{
+					"name": "Associate",
+					"value": ""
+				},
+				{
+					"name": "BusinessUnit",
+					"value": ""
+				},
+				{
+					"name": "BuyerCode",
+					"value": ""
+				},
+				{
+					"name": "ChannelType",
+					"value": ""
+				},
+				{
+					"name": "DSOrderDate",
+					"value": ""
+				},
+				{
+					"name": "DesignatedServiceLevelCode",
+					"value": ""
+				},
+				{
+					"name": "ExternalShippingGroupID",
+					"value": ""
+				},
+				{
+					"name": "GiftMessage",
+					"value": ""
+				},
+				{
+					"name": "IncotermName",
+					"value": ""
+				},
+				{
+					"name": "IsHazmat",
+					"value": ""
+				},
+				{
+					"name": "IsPerishable",
+					"value": ""
+				},
+				{
+					"name": "Lock",
+					"value": ""
+				},
+				{
+					"name": "MajorOrderGroupAttribute",
+					"value": ""
+				},
+				{
+					"name": "Manager",
+					"value": ""
+				},
+				{
+					"name": "PackAndHoldFlag",
+					"value": ""
+				},
+				{
+					"name": "ProdSchedRefNumber",
+					"value": ""
+				},
+				{
+					"name": "ProtectionLevelCode",
+					"value": ""
+				},
+				{
+					"name": "PurchaseOrderType",
+					"value": ""
+				},
+				{
+					"name": "ShipGroupID",
+					"value": ""
+				},
+				{
+					"name": "ShipperId",
+					"value": ""
+				},
+				{
+					"name": "SpecialOrderDeposit",
+					"value": ""
+				},
+				{
+					"name": "StoreNumber",
+					"value": ""
+				},
+				{
+					"name": "TaxExemptDate",
+					"value": ""
+				},
+				{
+					"name": "TaxExemptFlag",
+					"value": ""
+				},
+				{
+					"name": "TaxExemptID",
+					"value": ""
+				},
+				{
+					"name": "TaxExemptType",
+					"value": ""
+				},
+				{
+					"name": "TaxExpirationDate",
+					"value": ""
+				},
+				{
+					"name": "TransportationResponsibilityCode",
+					"value": ""
+				},
+				{
+					"name": "VIP",
+					"value": ""
+				}
+			]
+		},
+		"orderLines": {
+			"orderLine": {
+				"orderLineNumber": 1,
+				"orderLineId": 701876,
+				"extCreatedDTTM": "6\/19\/19 06:42 EDT",
+				"extCaptureDate": "6\/19\/19 06:42 EDT",
+				"orderLineStatusId": 20,
+				"orderLineStatus": "Created",
+				"masterLineStatus": "Created",
+				"masterLineHold": true,
+				"lineType": 1,
+				"itemId": 42589518,
+				"itemPKId": 998523,
+				"merchGroup": "",
+				"merchType": "",
+				"isGift": false,
+				"lineTotal": 9.99,
+				"formattedLineTotal": "$9.99",
+				"onHold": false,
+				"isReturnable": true,
+				"priceDetails": {
+					"price": 9.99,
+					"formattedPrice": "$9.99",
+					"extendedPrice": 9.99,
+					"formattedExtendedPrice": "$9.99",
+					"purchasePrice": 9.99,
+					"isPriceOverridden": false,
+					"originalPrice": 9.99,
+					"formattedOriginalPrice": "$9.99"
+				},
+				"orderedQuantity": 1,
+				"orderedQtyUOM": "UNITS",
+				"cancelledQuantity": 0,
+				"totalAllocatedQuantity": 0,
+				"totalCancelledQuantity": 0,
+				"quantityDetails": {
+					"baseStorageUom": "UNITS",
+					"orderedQuantityInBaseStorageUom": 1,
+					"totalAllocatedQuantity": 0,
+					"totalBackorderedQuantity": 0,
+					"totalCancelledQuantity": 0,
+					"totalDCAllocatedQuantity": 0,
+					"totalReleasedQuantity": 0,
+					"totalShippedQuantity": 0
+				},
+				"shippingInfo": {
+					"mustDeliverByDate": " ",
+					"promisedDeliverByDate": " ",
+					"requestedDeliverByDate": " ",
+					"shipVia": "3g",
+					"shipViaDescription": "Standard",
+					"designatedCarrierCode": "DFLT",
+					"designatedModeCode": "DFLT",
+					"designatedServiceLevelCode": "STD",
+					"deliveryOption": "Ship to address",
+					"shippingAddress": {
+						"firstName": "Gajendra ",
+						"lastName": "Singh",
+						"addressLine1": "700 Liberty Ave",
+						"city": "Union",
+						"stateProv": "NJ",
+						"postalCode": "07083-8198",
+						"country": "US",
+						"phone": "+1-212-1234123",
+						"email": "domtestin@gmail.com",
+						"addressVerified": true,
+						"domesticPhone": "(212) 123-4123",
+						"domesticExtn": ""
+					},
+					"appliedFreeShippingPromo": false
+				},
+				"discountDetails": {
+					"totalDiscountDetails": {
+						"totalPromotionsApplied": 0,
+						"totalPromotionAmount": 0,
+						"formattedTotalPromotionAmount": "$0.00",
+						"totalCouponsApplied": 0,
+						"totalCouponAmount": 0,
+						"formattedTotalCouponAmount": "$0.00",
+						"totalAppeasementsApplied": 0,
+						"totalAppeasementAmount": 0,
+						"formattedTotalAppeasementAmount": "$0.00"
+					}
+				},
+				"taxDetails": {
+					"taxDetail": [
+						{
+							"extTaxDetailId": 3264226,
+							"taxCategory": "General Sales and Use Tax",
+							"chargeCategory": "Base Price",
+							"taxName": "COUNTY",
+							"taxLocationName": "NJ",
+							"taxAmount": "0.00",
+							"formattedTaxAmount": "$0.00",
+							"taxRate": 0,
+							"taxableAmount": 9.99,
+							"taxDTTM": "6\/19\/19 06:42 EDT",
+							"deleted": false,
+							"taxType": "QUOTATION"
+						},
+						{
+							"extTaxDetailId": 3264225,
+							"taxCategory": "General Sales and Use Tax",
+							"chargeCategory": "Base Price",
+							"taxName": "CITY",
+							"taxLocationName": "NJ",
+							"taxAmount": "0.00",
+							"formattedTaxAmount": "$0.00",
+							"taxRate": 0,
+							"taxableAmount": 9.99,
+							"taxDTTM": "6\/19\/19 06:42 EDT",
+							"deleted": false,
+							"taxType": "QUOTATION"
+						},
+						{
+							"extTaxDetailId": 3264228,
+							"taxCategory": "General Sales and Use Tax",
+							"chargeCategory": "Base Price",
+							"taxName": "STATE",
+							"taxLocationName": "NJ",
+							"taxAmount": "0.00",
+							"formattedTaxAmount": "$0.00",
+							"taxRate": 0,
+							"taxableAmount": 9.99,
+							"taxDTTM": "6\/19\/19 06:42 EDT",
+							"deleted": false,
+							"taxType": "QUOTATION"
+						},
+						{
+							"extTaxDetailId": 3264227,
+							"taxCategory": "General Sales and Use Tax",
+							"chargeCategory": "Base Price",
+							"taxName": "DISTRICT",
+							"taxLocationName": "NJ",
+							"taxAmount": "0.00",
+							"formattedTaxAmount": "$0.00",
+							"taxRate": 0,
+							"taxableAmount": 9.99,
+							"taxDTTM": "6\/19\/19 06:42 EDT",
+							"deleted": false,
+							"taxType": "QUOTATION"
+						},
+						{
+							"extTaxDetailId": 3264222,
+							"taxCategory": "General Sales and Use Tax",
+							"chargeCategory": "Item Surcharge",
+							"taxName": "COUNTY",
+							"taxLocationName": "NJ",
+							"taxAmount": "0.00",
+							"formattedTaxAmount": "$0.00",
+							"taxRate": 0,
+							"taxableAmount": "0.00",
+							"taxDTTM": "6\/19\/19 06:42 EDT",
+							"deleted": false,
+							"taxType": "QUOTATION"
+						},
+						{
+							"extTaxDetailId": 3264221,
+							"taxCategory": "General Sales and Use Tax",
+							"chargeCategory": "Item Surcharge",
+							"taxName": "CITY",
+							"taxLocationName": "NJ",
+							"taxAmount": "0.00",
+							"formattedTaxAmount": "$0.00",
+							"taxRate": 0,
+							"taxableAmount": "0.00",
+							"taxDTTM": "6\/19\/19 06:42 EDT",
+							"deleted": false,
+							"taxType": "QUOTATION"
+						},
+						{
+							"extTaxDetailId": 3264224,
+							"taxCategory": "General Sales and Use Tax",
+							"chargeCategory": "Item Surcharge",
+							"taxName": "STATE",
+							"taxLocationName": "NJ",
+							"taxAmount": "0.00",
+							"formattedTaxAmount": "$0.00",
+							"taxRate": 0,
+							"taxableAmount": "0.00",
+							"taxDTTM": "6\/19\/19 06:42 EDT",
+							"deleted": false,
+							"taxType": "QUOTATION"
+						},
+						{
+							"extTaxDetailId": 3264223,
+							"taxCategory": "General Sales and Use Tax",
+							"chargeCategory": "Item Surcharge",
+							"taxName": "DISTRICT",
+							"taxLocationName": "NJ",
+							"taxAmount": "0.00",
+							"formattedTaxAmount": "$0.00",
+							"taxRate": 0,
+							"taxableAmount": "0.00",
+							"taxDTTM": "6\/19\/19 06:42 EDT",
+							"deleted": false,
+							"taxType": "QUOTATION"
+						}
+					]
+				},
+				"referenceFields": {
+					"referenceField1": "",
+					"referenceField2": "",
+					"referenceField3": "",
+					"referenceField4": "",
+					"referenceField5": 1,
+					"referenceField6": "",
+					"referenceField7": "",
+					"referenceField8": "N\/A",
+					"referenceField9": "",
+					"referenceField10": "EOM",
+					"referenceNumber1": 0,
+					"referenceNumber2": 0,
+					"referenceNumber3": "",
+					"referenceNumber4": "",
+					"referenceNumber5": ""
+				},
+				"customAttributeList": [
+					{
+						"name": "AddressTypeIndicator",
+						"value": "R"
+					},
+					{
+						"name": "AllocSystemAttribute",
+						"value": ""
+					},
+					{
+						"name": "AssemblySku",
+						"value": ""
+					},
+					{
+						"name": "AssortNbr",
+						"value": ""
+					},
+					{
+						"name": "AtgCommerceItemId",
+						"value": ""
+					},
+					{
+						"name": "CoRegFirstName",
+						"value": ""
+					},
+					{
+						"name": "CoRegLastName",
+						"value": ""
+					},
+					{
+						"name": "CompleteShipGroupCancelled",
+						"value": ""
+					},
+					{
+						"name": "ConfigId",
+						"value": ""
+					},
+					{
+						"name": "ConfiguratorVendorName",
+						"value": ""
+					},
+					{
+						"name": "CustomItemType",
+						"value": ""
+					},
+					{
+						"name": "CustomizationType",
+						"value": ""
+					},
+					{
+						"name": "DeliverySku",
+						"value": ""
+					},
+					{
+						"name": "DesignatedCarrierCode",
+						"value": ""
+					},
+					{
+						"name": "DesignatedModeCode",
+						"value": ""
+					},
+					{
+						"name": "DesignatedServiceLevel",
+						"value": ""
+					},
+					{
+						"name": "EcoSku",
+						"value": ""
+					},
+					{
+						"name": "EventDate",
+						"value": ""
+					},
+					{
+						"name": "ExtSysLineItemId",
+						"value": ""
+					},
+					{
+						"name": "ProtectionLevelCode",
+						"value": ""
+					},
+					{
+						"name": "RetailVASPrice",
+						"value": ""
+					},
+					{
+						"name": "SKU100Inventory",
+						"value": ""
+					},
+					{
+						"name": "StoreDepartment",
+						"value": ""
+					},
+					{
+						"name": "TrackingID",
+						"value": ""
+					},
+					{
+						"name": "UCDescription",
+						"value": ""
+					},
+					{
+						"name": "UCLargeImageURL",
+						"value": ""
+					},
+					{
+						"name": "UCMetaDataState",
+						"value": ""
+					},
+					{
+						"name": "UCMetaDataUpdatedDTTM",
+						"value": ""
+					},
+					{
+						"name": "UCMetadataInd",
+						"value": ""
+					},
+					{
+						"name": "UCMetadataURL",
+						"value": ""
+					},
+					{
+						"name": "UCModerationDescription",
+						"value": ""
+					},
+					{
+						"name": "UCModerationInd",
+						"value": ""
+					},
+					{
+						"name": "UCModerationReasonCode",
+						"value": ""
+					},
+					{
+						"name": "UCModerationState",
+						"value": ""
+					},
+					{
+						"name": "UCModerationURL",
+						"value": ""
+					},
+					{
+						"name": "UCModerationUpdatedDTTM",
+						"value": ""
+					},
+					{
+						"name": "UCSmallImageURL",
+						"value": ""
+					},
+					{
+						"name": "VendorCost",
+						"value": ""
+					},
+					{
+						"name": "VendorVASCost",
+						"value": ""
+					},
+					{
+						"name": "eventDate",
+						"value": ""
+					}
+				],
+				"itemDescription": "BELT TOD 2P KHK GLAS",
+				"imageURL": "\/doms\/dom\/selling\/image\/item\/ImageNotAvailable.jpg",
+				"itemColor": "MULTI",
+				"itemStyle": 42589518,
+				"extLineId": 1,
+				"cancelled": false,
+				"unitPriceAmount": 9.99,
+				"retailPrice": 9.99,
+				"lineDiscountAmount": "0.00",
+				"formattedLineDiscountAmount": "$0.00",
+				"chargeDetails": {
+					"chargeDetail": [
+						{
+							"extChargeDetailId": "Item Surcharge_11",
+							"chargeCategory": "Item Surcharge",
+							"chargeGroup": "COCharges",
+							"chargeName": 1,
+							"chargeAmount": "0.00",
+							"formattedChargeAmount": "$0.00",
+							"unitCharge": 0,
+							"taxIncluded": false,
+							"originalChargeAmount": "0.00",
+							"formattedOriginalChargeAmount": "$0.00",
+							"markForDeletion": false,
+							"overriddenCharge": false
+						}
+					],
+					"formattedTotalChargesAmount": "$0.00",
+					"formattedTotalFeesAmount": "$0.00",
+					"totalChargesAmount": 0
+				},
+				"originalPrice": 9.99,
+				"orderLineTotals": {
+					"lineTotal": 9.99,
+					"itemSubTotal": 9.99,
+					"formattedItemSubTotal": "$9.99",
+					"formattedLineTotal": "$9.99",
+					"lineDiscountAmount": "0.00",
+					"formattedLineDiscountAmount": "$0.00",
+					"lineTaxAmonut": "0.00",
+					"formattedLineTaxAmount": "$0.00",
+					"lineTotalBeforeTaxes": 9.99,
+					"formattedLineTotalBeforeTaxes": "$9.99"
+				},
+				"isAnyChildLineInPartiallyShippedStatus": false,
+				"itemReferenceField5": "EOM",
+				"isAssemblyAvailable": false,
+				"isShipViaWhiteGlove": false,
+				"itemPriceId": 2933558,
+				"isVasAvailable": false,
+				"siteType": "BedBathBeyond"
+			}
+		},
+		"shippingGroups": {
+			"shippingGroup": {
+				"extShippingGroupId": 1,
+				"isGiftWrap": false,
+				"isSignatureRequired": false,
+				"isPackAndHold": false,
+				"packAndHoldDeliveryBy": "",
+				"shipToRegistryAddress": false
+			}
+		},
+		"orderTotals": {
+			"totalCharges": 5.99,
+			"formattedTotalCharges": "$5.99",
+			"totalDiscounts": "0.00",
+			"formattedTotalDiscounts": "$0.00",
+			"totalTaxes": "0.00",
+			"formattedTotalTaxes": "$0.00",
+			"itemSubTotal": 9.99,
+			"formattedItemSubTotal": "$9.99",
+			"grandTotal": 15.98,
+			"formattedGrandTotal": "$15.98",
+			"remainingToPay": "0.00",
+			"formattedRemainingToPay": "$0.00",
+			"amountPaid": 15.98,
+			"formattedAmountPaid": "$15.98",
+			"totalChargeDetails": {
+				"totalChargeDetail": [
+					{
+						"chargeCategory": "Shipping",
+						"chargeValue": 5.99,
+						"formattedChargeValue": "$5.99",
+						"originalChargeValue": 5.99,
+						"formattedOriginalChargeValue": "$5.99",
+						"showCurrency": true,
+						"overriddenSnHCharge": false,
+						"chargesNotAvailable": false,
+						"eligibleForSnHOverride": true
+					},
+					{
+						"chargeCategory": "Item Surcharge",
+						"chargeValue": "0.00",
+						"formattedChargeValue": "$0.00",
+						"originalChargeValue": "0.00",
+						"formattedOriginalChargeValue": "$0.00",
+						"showCurrency": true,
+						"overriddenSnHCharge": false,
+						"chargesNotAvailable": false,
+						"eligibleForSnHOverride": true
+					}
+				]
+			},
+			"totalDiscountDetails": {
+				"totalPromotionsApplied": 0,
+				"totalPromotionAmount": 0,
+				"formattedTotalPromotionAmount": "$0.00",
+				"totalCouponsApplied": 0,
+				"totalCouponAmount": 0,
+				"formattedTotalCouponAmount": "$0.00",
+				"totalAppeasementsApplied": 0,
+				"totalAppeasementAmount": 0,
+				"formattedTotalAppeasementAmount": "$0.00"
+			}
+		},
+		"corporateOrder": 0,
+		"taxExemptFlag": "",
+		"taxExemptID": "",
+		"taxExemptType": "",
+		"taxExpirationDate": "",
+		"consolidatedCharges": {
+			"entry": [
+				{
+					"key": "Eco Fee",
+					"value": "$0.00"
+				},
+				{
+					"key": "Item Surcharge",
+					"value": "$0.00"
+				}
+			]
+		},
+		"bbabIsShippingAddressUpdate": false,
+		"notesAdded": false,
+		"postOrderUpdates": false
+	}
+}
