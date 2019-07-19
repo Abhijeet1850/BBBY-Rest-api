@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("classpath:com/test/BBBY_Rest_api/features_api/CreateOrder.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("classpath:com/test/BBBY_Rest_api/features_api/CarrierChildServiceDelivery.feature");
 formatter.feature({
   "name": "Create Orders",
   "description": "  I want to create bulk orders",
@@ -23,14 +23,99 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "Create \"1\" new orders",
+  "name": "I create test Data for Carrier Schedule",
+  "rows": [
+    {
+      "cells": [
+        "Carrier",
+        "nonWorking",
+        "Service",
+        "Reason",
+        "StartDate",
+        "EndDate"
+      ]
+    },
+    {
+      "cells": [
+        "UPS",
+        "2020-11-11",
+        "UPS GROUND",
+        "HOLIDAY",
+        "2020-11-10",
+        "2020-11-11"
+      ]
+    }
+  ],
   "keyword": "Given "
 });
-formatter.match({
-  "location": "ManageCreateOrder.create_new_orders(String)"
-});
+formatter.match({});
 formatter.result({
-  "error_message": "java.lang.IllegalArgumentException: path cannot be null\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)\r\n\tat org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)\r\n\tat org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)\r\n\tat io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)\r\n\tat io.restassured.internal.assertion.AssertParameter$notNull.callStatic(Unknown Source)\r\n\tat org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)\r\n\tat io.restassured.internal.assertion.AssertParameter$notNull.callStatic(Unknown Source)\r\n\tat io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1692)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)\r\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1750)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)\r\n\tat groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)\r\n\tat groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)\r\n\tat io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)\r\n\tat org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)\r\n\tat org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)\r\n\tat io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:171)\r\n\tat io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)\r\n\tat com.test.BBBY_Rest_api.features_api.ManageCreateOrder.ninthRequest(ManageCreateOrder.java:391)\r\n\tat com.test.BBBY_Rest_api.features_api.ManageCreateOrder.generateToken(ManageCreateOrder.java:429)\r\n\tat com.test.BBBY_Rest_api.features_api.ManageCreateOrder.createOrder(ManageCreateOrder.java:480)\r\n\tat com.test.BBBY_Rest_api.features_api.ManageCreateOrder.create_new_orders(ManageCreateOrder.java:535)\r\n\tat ✽.Create \"1\" new orders(classpath:com/test/BBBY_Rest_api/features_api/CreateOrder.feature:7)\r\n",
-  "status": "failed"
+  "status": "undefined"
+});
+formatter.step({
+  "name": "I fetch Facility Delivery Schedule with below Request",
+  "rows": [
+    {
+      "cells": [
+        "Carrier",
+        "Date",
+        "NumberofDays",
+        "ServiceLevel"
+      ]
+    },
+    {
+      "cells": [
+        "UPS",
+        "2020-11-10",
+        "2",
+        "UPS GROUND"
+      ]
+    }
+  ],
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "I get the below Carrier Delivery Schedule",
+  "rows": [
+    {
+      "cells": [
+        "Carrier",
+        "Date",
+        "ServiceLevel",
+        "Available",
+        "Reason_Code",
+        "Code_Desc"
+      ]
+    },
+    {
+      "cells": [
+        "UPS",
+        "2020-11-10",
+        "UPS GROUND",
+        "Y",
+        "",
+        ""
+      ]
+    },
+    {
+      "cells": [
+        "UPS",
+        "2020-11-11",
+        "UPS GROUND",
+        "Y",
+        "",
+        ""
+      ]
+    }
+  ],
+  "keyword": "Then "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
 });
 });

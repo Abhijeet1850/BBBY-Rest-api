@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11204" started-at="2019-07-09T07:35:15Z" finished-at="2019-07-09T07:35:26Z">
+  <suite name="Default suite" duration-ms="341" started-at="2019-07-18T10:00:28Z" finished-at="2019-07-18T10:00:28Z">
     <groups>
       <group name="cucumber">
-        <method signature="RunCukesByTest.scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test.BBBY_Rest_api.features_api.RunCukesByTest@7085bdee]" name="scenario" class="com.test.BBBY_Rest_api.features_api.RunCukesByTest"/>
+        <method signature="RunCukesByTest.scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test.BBBY_Rest_api.features_api.RunCukesByTest@192b07fd]" name="scenario" class="com.test.BBBY_Rest_api.features_api.RunCukesByTest"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="11204" started-at="2019-07-09T07:35:15Z" finished-at="2019-07-09T07:35:26Z">
+    <test name="Default test" duration-ms="341" started-at="2019-07-18T10:00:28Z" finished-at="2019-07-18T10:00:28Z">
       <class name="com.test.BBBY_Rest_api.features_api.RunCukesByTest">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.BBBY_Rest_api.features_api.RunCukesByTest@7085bdee]" name="beforeClass" is-config="true" duration-ms="6" started-at="2019-07-09T13:05:15Z" finished-at="2019-07-09T13:05:15Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.test.BBBY_Rest_api.features_api.RunCukesByTest@192b07fd]" name="beforeClass" is-config="true" duration-ms="7" started-at="2019-07-18T15:30:28Z" finished-at="2019-07-18T15:30:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.test.BBBY_Rest_api.features_api.RunCukesByTest@7085bdee]" name="setUpClass" is-config="true" duration-ms="91" started-at="2019-07-09T13:05:15Z" finished-at="2019-07-09T13:05:15Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.test.BBBY_Rest_api.features_api.RunCukesByTest@192b07fd]" name="setUpClass" is-config="true" duration-ms="104" started-at="2019-07-18T15:30:28Z" finished-at="2019-07-18T15:30:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test.BBBY_Rest_api.features_api.RunCukesByTest@7085bdee]" name="scenario" duration-ms="11037" started-at="2019-07-09T13:05:15Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-07-09T13:05:26Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.BBBY_Rest_api.features_api.RunCukesByTest@192b07fd]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-18T15:30:28Z" finished-at="2019-07-18T15:30:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="SKIP" signature="scenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test.BBBY_Rest_api.features_api.RunCukesByTest@192b07fd]" name="scenario" duration-ms="143" started-at="2019-07-18T15:30:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2019-07-18T15:30:28Z">
           <params>
             <param index="0">
               <value>
@@ -31,72 +35,47 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalArgumentException">
+          <exception class="org.testng.SkipException">
             <message>
-              <![CDATA[path cannot be null]]>
+              <![CDATA[There are undefined steps]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: path cannot be null
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
-	at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
-	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:238)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:250)
-	at io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
-	at io.restassured.internal.assertion.AssertParameter$notNull.callStatic(Unknown Source)
-	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:55)
-	at io.restassured.internal.assertion.AssertParameter$notNull.callStatic(Unknown Source)
-	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1692)
+              <![CDATA[org.testng.SkipException: There are undefined steps
+	at cucumber.api.testng.TestCaseResultListener.getError(TestCaseResultListener.java:60)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:69)
+	at com.test.BBBY_Rest_api.features_api.RunCukesByTest.scenario(RunCukesByTest.java:26)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)
-	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1750)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:98)
-	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1225)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1034)
-	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:822)
-	at io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:47)
-	at org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:57)
-	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
-	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:171)
-	at io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
-	at com.test.BBBY_Rest_api.features_api.ManageCreateOrder.ninthRequest(ManageCreateOrder.java:391)
-	at com.test.BBBY_Rest_api.features_api.ManageCreateOrder.generateToken(ManageCreateOrder.java:429)
-	at com.test.BBBY_Rest_api.features_api.ManageCreateOrder.createOrder(ManageCreateOrder.java:480)
-	at com.test.BBBY_Rest_api.features_api.ManageCreateOrder.create_new_orders(ManageCreateOrder.java:535)
-	at ✽.Create "1" new orders(classpath:com/test/BBBY_Rest_api/features_api/CreateOrder.feature:7)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+          </exception> <!-- org.testng.SkipException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.test.BBBY_Rest_api.features_api.RunCukesByTest@7085bdee]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-09T13:05:15Z" finished-at="2019-07-09T13:05:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.test.BBBY_Rest_api.features_api.RunCukesByTest@7085bdee]" name="tearDownClass" is-config="true" duration-ms="19" started-at="2019-07-09T13:05:26Z" finished-at="2019-07-09T13:05:26Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.test.BBBY_Rest_api.features_api.RunCukesByTest@192b07fd]" name="tearDownClass" is-config="true" duration-ms="31" started-at="2019-07-18T15:30:28Z" finished-at="2019-07-18T15:30:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
